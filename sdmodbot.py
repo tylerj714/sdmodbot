@@ -13,8 +13,6 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD_ID = int(os.getenv('GUILD_ID'))
 VOTE_CHANNEL = int(os.getenv('VOTE_CHANNEL'))
-MODERATOR_ACTION_CHANNEL = int(os.getenv('MODERATOR_ACTION_CHANNEL'))
-MODERATOR_ROLE_ID = int(os.getenv('MODERATOR_ROLE_ID'))
 BASE_PATH = os.getenv('BASE_PATH')
 
 class BankerBotClient(discord.Client):
